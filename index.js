@@ -4,15 +4,14 @@
 //otherwise good evening
 
 let time = parseInt(prompt("enter current time"));
-if(isNaN(time)){
+if(isNaN(time))
   alert("invalid data enter an interger");
   
-}else{
-  if(time >=6 && time < 12){
+else
+  if(time >=6 && time < 12)
     console.log("Good morning");
-  }else if(time >12 && time <16){
+  else if(time >12 && time <16)
     console.log("Good afternoon");
-  }else{
+  else
     console.log("Good evening");
-  }
-}
+  
